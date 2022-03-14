@@ -1,14 +1,21 @@
 package developertest.backend.model.dtos;
 
+import java.math.BigInteger;
+
 public class EmployeeDto {
 
     String employee_name;
-    int employee_salary;
+    BigInteger employee_salary;
     int employee_age;
     String profile_image;
+    BigInteger employee_anual_salary;
 
     public EmployeeDto()
     {
+    }
+
+    public BigInteger getEmployee_anual_salary() {
+        return employee_anual_salary;
     }
 
     public String getEmployee_name() {
@@ -16,7 +23,7 @@ public class EmployeeDto {
     }
 
 
-    public int getEmployee_salary() {
+    public BigInteger getEmployee_salary() {
         return employee_salary;
     }
 
