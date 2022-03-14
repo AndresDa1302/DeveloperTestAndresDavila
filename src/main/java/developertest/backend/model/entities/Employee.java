@@ -1,5 +1,7 @@
 package developertest.backend.model.entities;
 
+import org.bson.json.JsonObject;
+import org.json.JSONObject;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -29,7 +31,15 @@ public class Employee {
         profile_image=EmployeeDto.getProfile_image();
         employee_anual_salary=EmployeeDto.getEmployee_anual_salary();
     }
+    public Employee(JSONObject json)
+    {
+        id=json.getNumber("id");
+        employee_name = json.getString("employee_name");
+        employee_salary= json.getBigInteger("employee_salary");
+        employee_age= json.getInt("employee_age");
+        employee_anual_salary=employee_salary.multiply(new BigInteger(String.valueOf("12")));
 
+    }
     public void setId(Number id) {
         this.id = id;
     }

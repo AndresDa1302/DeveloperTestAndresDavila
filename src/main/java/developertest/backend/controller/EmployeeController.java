@@ -20,7 +20,7 @@ public class EmployeeController {
     {
         this.employeeService = employeeService;
     }
-    @GetMapping( "/employees/" )
+    @GetMapping( "/employees" )
     public List<Employee> all() throws IOException {
         return employeeService.all();
     }
