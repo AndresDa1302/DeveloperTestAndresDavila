@@ -62,8 +62,8 @@
 10. The application must include Unitary Tests for at least one of the Business Layer methods. Using JUnit5
 
 ## Prerequisites
-*Jdk 1.8 or higher installed.
-*It is optional to have git installed
-*Java 8 or higher
+* Jdk 1.8 or higher installed.
+* It is optional to have git installed
+* Java 8 or higher
 
 ## Execution

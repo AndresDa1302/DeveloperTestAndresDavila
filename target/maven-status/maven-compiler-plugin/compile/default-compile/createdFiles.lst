@@ -1,5 +1,6 @@
 developertest\backend\model\dtos\EmployeeDto.class
 developertest\backend\service\serviceImpl\EmployeeServiceImpl.class
+developertest\backend\controller\EmployeeController.class
 developertest\backend\exception\ServerErrorResponseDto.class
 developertest\backend\exception\InternalServerErrorException.class
 developertest\backend\repository\EmployeeRepository.class

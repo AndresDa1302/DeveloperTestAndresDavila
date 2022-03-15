@@ -5,7 +5,7 @@
     <groupId>developertest.backend</groupId>
     <artifactId>developertestandres</artifactId>
     <version>y</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>DeveloperTest</name>
 
