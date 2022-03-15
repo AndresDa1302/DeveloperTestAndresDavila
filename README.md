@@ -65,5 +65,11 @@
 * Jdk 1.8 or higher installed.
 * It is optional to have git installed
 * Java 8 or higher
+* Maven must be install
 
 ## Execution
+* In your directory run the command git clone https://github.com/AndresDa1302/DeveloperTestAndresDavila
+* Access the cloned project and in the root, by means of CMD execute mvn clean install or mvn package
+* Run the project from a code editor such as intelliJ.
+* Finally, you can make any queries you want to the API(http://localhost:8080/v1/employee/{id})
+* To execute the frontend access the following repository and follow the execution steps (https://github.com/AndresDa1302/DeveloperTestAndresFront.)

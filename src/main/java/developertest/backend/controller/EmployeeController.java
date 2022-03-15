@@ -27,7 +27,7 @@ public class EmployeeController {
     }
 
     @GetMapping( value= {"/employee/{id}","/employee"} )
-    public ResponseEntity<List<Employee>> findById(@PathVariable (name="id",required = false)String id)  throws IOException {
+    public ResponseEntity<List<Employee>> findById(@PathVariable (value="id",required = false)String id)  throws IOException {
 
         try
         {
