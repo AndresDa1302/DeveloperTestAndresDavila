@@ -1,24 +1,20 @@
 package developertest.backend.service.serviceImpl;
 
-import com.google.gson.Gson;
+
 import developertest.backend.exception.EmployeeNotFoundException;
 import developertest.backend.model.entities.Employee;
-import developertest.backend.repository.EmployeeRepository;
 import developertest.backend.service.EmployeeService;
-import org.bson.json.JsonObject;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigInteger;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+
 
 
 @Service
@@ -39,7 +35,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            System.out.println("Ha ocurrido un error");
+            System.out.println("An error has occurred");
         }
         return result.toString();
     }
@@ -59,7 +55,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            System.out.println("Ha ocurrido un error");
+            System.out.println("An error has occurred");
         }
         return result.toString();
     }
