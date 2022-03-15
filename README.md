@@ -4,7 +4,7 @@
 
 *Thales technical test
 
-##Construction
+## Construction
 *IntelliJ code editor and development environment(IDE)
 *maven-Dependency manager
 *Docker-Software to create, test and deploy APIS through containers.
@@ -15,7 +15,7 @@
 * Andres Felipe Davila Gutierrez
 
 
-##Baseline Requirements
+## Baseline Requirements
 
 * The application must be designed using good design practices and coding (describe the most relevant)
 * The application must be done using an Open Source Java IDE of choice (recommended:IntelliJ Idea community, Netbeans IDE, Eclipse IDE)
@@ -24,7 +24,7 @@
 * Basic Object Oriented Programming principles must be used, such as Inheritance,abstraction, encapsulation
 * SOLID principles must be used
 
-##Application Requirements
+## Application Requirements
 
 1. Create an MVC application.Can be based in Spring(or Spring Boot), JSF, Struts or Vaadin
 2. The application must be delivered in a WAR file
@@ -33,7 +33,7 @@
 5. Create a Data Access Layer to consume the following REST APIs:
 >> http://dummy.restapiexample.com/api/v1/employees
 >> http://dummy.restapiexample.com/api/v1/employee/1
-> These API methods return a list of employees and employee data by ID
+* These API methods return a list of employees and employee data by ID
 
 6. Create a Business class (EJB, for example) to compute the following value:
 
@@ -61,9 +61,9 @@
 
 10. The application must include Unitary Tests for at least one of the Business Layer methods. Using JUnit5
 
-##Pre-requisitos
+## Prerequisites
 *Jdk 1.8 or higher installed.
 *It is optional to have git installed
 *Java 8 or higher
 
-##Execution
+## Execution
