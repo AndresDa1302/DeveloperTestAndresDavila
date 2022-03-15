@@ -1,14 +1,14 @@
 # DeveloperTest-Thales
 
-##Api Employee consultation  
+## Api Employee consultation  
 
 *Thales technical test
 
 ## Construction
-*IntelliJ code editor and development environment(IDE)
-*maven-Dependency manager
-*Docker-Software to create, test and deploy APIS through containers.
-*Springboot-Framework Creation of APIs
+* IntelliJ code editor and development environment(IDE)
+* maven-Dependency manager
+* Docker-Software to create, test and deploy APIS through containers.
+* Springboot-Framework Creation of APIs
 
 
 ## Author
